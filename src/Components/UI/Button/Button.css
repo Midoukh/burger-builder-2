@@ -1,0 +1,20 @@
+.Button{
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px rgb(10, 10, 1);
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    outline: none;
+}
+.Button:hover{
+    opacity: 0.8;
+}
+.Success{
+    background-color: rgb(13, 141, 153);
+    margin-right: 0.7rem;
+}
+.Failure{
+    background-color: rgb(226, 50, 6);
+}

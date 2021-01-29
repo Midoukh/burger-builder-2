@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
-import './App.css';
-
+import Layout from '../Components/Layout/Layout'
+import BurgerBuilder from './Burger Builder/Burger Builder'
 
 class App extends Component{
   
  render(){
    return (
      <div>
-       Hello world
+       <Layout>
+          <BurgerBuilder />
+       </Layout>
      </div>
    )
  }
